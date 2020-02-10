@@ -1,0 +1,9 @@
+module "eks" {
+  source       = "./modules/eks"
+  cluster_name = "terraform-eks"
+  region       = "eu-west-1"
+  vpc_cidr     = "10.0.0.0/16"
+  aws_credentials  = "~/.aws/credentials"
+  subnet_cidr  = "10.0.2.0/24"
+  subnet_cidr2  = "10.0.64.0/24"
+}

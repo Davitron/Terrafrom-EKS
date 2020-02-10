@@ -1,0 +1,5 @@
+main.tf.dev
+terraform.plan
+terraform.tfstate
+terraform.tfstate.backup
+.terraform
